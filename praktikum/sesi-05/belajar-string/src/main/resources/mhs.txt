@@ -1,0 +1,3 @@
+nim,nama,alamat
+123,endy,jakarta
+456,dadang,bekasi
