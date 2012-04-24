@@ -1,0 +1,21 @@
+Belajar String
+
+String :
+- kumpulan angka, huruf, dan karakter khusus
+- diawali dan diakhiri dengan tanda kutip ganda
+- contoh : "endy muhardin"
+- di Java diwakili oleh class java.lang.String
+
+Method yang dimiliki class java.lang.String :
+- mengetahui jumlah karakter dalam string => length
+- mengambil huruf di posisi tertentu => charAt
+- memotong sebagian string
+  - dari karakter ke-x sampai karakter ke-y => substring(x,y)
+  - dari karakter ke-x sampai akhir => substring(x)
+- menyambung dua string menjadi satu => +
+- mengganti huruf dalam string => replaceAll
+- mencari apakah potongan string ada di dalam string lain => indexOf
+- mengetahui apakah string dimulai dengan potongan string tertentu => startsWith
+- membandingkan dua string
+  - case sensitive => equals
+  - case insensitive => equalsIgnoreCase
