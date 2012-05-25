@@ -1,0 +1,33 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>pemrograman-2</groupId>
+    <artifactId>belajar-datetime</artifactId>
+    <version>1.0.0</version>
+
+    <dependencies>
+        <dependency>
+	        <groupId>junit</groupId>
+	        <artifactId>junit</artifactId>
+	        <version>4.10</version>
+        </dependency>
+		<dependency>
+	        <groupId>joda-time</groupId>
+	        <artifactId>joda-time</artifactId>
+	        <version>2.1</version>
+        </dependency>
+    </dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.0.2</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>    
